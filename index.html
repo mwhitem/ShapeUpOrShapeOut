@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shape Up or Shape Out</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="shape-input">
+        <input type="text" placeholder="height" id="height-rectangle-input">
+        <input type="text" placeholder="width" id="width-rectangle-input">
+        <input type="button" value="Rectangle" class="input-button" id="rectangle-button">
+
+        <input type="text" placeholder="side length" id="side-length-square-input">
+        <input type="button" value="Square" class="input-button" id="square-button">
+
+        <input type="text" placeholder="radius" id="circle-input-box">
+        <input type="button" value="circle" class="input-button" id="circle-button">
+
+        <input type="text" placeholder="height" id="triangle-input-box">
+        <input type="button" value="triangle" class="input-button" id="triangle-button">
+    </div>
+    <div class="container">
+        <div id="shape-output">
+        </div>
+
+        <div class="side-panel">
+            <ol class="list-group list-group-numbered">
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                  <div class="ms-2 me-auto">
+                    <div class="fw-bold" id="output-shape-name">Shape Name</div>
+                    
+                  </div>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold" id="output-width">Width</div>
+                      
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold" id="output-height">Height</div>
+                      
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold" id="output-radius">Radius</div>
+                      
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold" id="output-area">Area</div>
+                      
+                    </div>
+                  </li>
+                  <li class="list-group-item d-flex justify-content-between align-items-start">
+                    <div class="ms-2 me-auto">
+                      <div class="fw-bold" id="output-perimeter">Perimeter</div>
+                      
+                    </div>
+                  </li>
+
+</ol>
+        </div>
+    </div>
+        <script src="app.js"></script>
+    </body>
+</html>
